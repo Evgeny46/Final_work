@@ -12,3 +12,9 @@ for(int i = 0; i<Array.Length; i++)
     Array[i] = Console.ReadLine();
     
 } 
+Console.WriteLine("Массив: ");
+for(int i =0; i<Array.Length; i++)
+{
+    Console.Write(Array[i] + "; ");
+}
+Console.WriteLine();
